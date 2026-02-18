@@ -8,20 +8,14 @@ This project analyzes the factors that influence student academic performance an
 The goal is not only to predict grades but to translate findings into actionable recommendations for schools, educators, and policymakers.
 
 #### Rationale
-Student performance is influenced by multiple interconnected factors ---
-academic habits, socio-demographic background, and access to resources.
-However, decisions about interventions are often made based on
-assumptions rather than evidence.
+Student performance is influenced by multiple interconnected factors --- academic habits, socio-demographic background, and access to resources. However, decisions about interventions are often made based on assumptions rather than evidence.
 
 This project aims to:
-
  - Identify the most influential factors affecting student grades
  - Distinguish strong predictors from weak or commonly assumed factors
  - Provide early indicators of academic risk
  - Deliver data-driven recommendations for performance improvement
  
- - Analyze how study habits, study duration, age, and gender affect grades and are there any other factors which needs to be considered.
- - The final objective is to provide data-driven recommendations to help students improve their performance.
 
 #### Research Question
 Student academic performance is often discussed, but the drivers behind it are not always clearly understood. This capstone project will provide an actionable insights backed by data:
@@ -35,11 +29,11 @@ The dataset will be sourced from Kaggle, using publicly available student perfor
 https://www.kaggle.com/datasets/ayeshaseherr/student-performance
 
 The dataset includes:
--   Demographic variables (Age, Gender)
--   Academic behavior variables (Study Time, Absences)
--   Family background (Parental Education)
--   Support indicators (Tutoring, Internet Access)
--   Academic outcome (Final Score)
+ - Demographic variables (Age, Gender)
+ - Academic behavior variables (Study Time, Absences)
+ - Family background (Parental Education)
+ - Support indicators (Tutoring, Internet Access)
+ - Academic outcome (Final Score)
 
 #### Methodology
 This project follows the CRISP-DM framework:
@@ -48,30 +42,30 @@ This project follows the CRISP-DM framework:
 Define the key drivers of student performance and determine how findings can inform early intervention strategies.
 
 ### 2️⃣ Data Understanding
--   Exploratory Data Analysis (EDA)
--   Distribution analysis
--   Correlation analysis
--   Identification of patterns and anomalies
+ - Exploratory Data Analysis (EDA)
+ - Distribution analysis
+ - Correlation analysis
+ - Identification of patterns and anomalies
 
 ### 3️⃣ Data Preparation
--   Handling missing values
--   Encoding categorical variables
--   Feature engineering (e.g., effort index, pass/fail classification)
--   Train-test split
+ - Handling missing values
+ - Encoding categorical variables
+ - Feature engineering (e.g., effort index, pass/fail classification)
+ - Train-test split
 
 ### 4️⃣ Modeling
 Baseline and comparative models including:
--   Linear Regression\
--   Logistic Regression\
--   k-Nearest Neighbors\
--   Decision Trees\
--   Regularization techniques (Ridge / Lasso)
+ - Linear Regression
+ - Logistic Regression
+ - k-Nearest Neighbors
+ - Decision Trees
+ - Regularization techniques (Ridge / Lasso)
 
 ### 5️⃣ Evaluation
--   RMSE and R² (for regression)
--   Accuracy, Precision, Recall, F1-score (for classification)
--   Cross-validation to reduce overfitting
--   Feature importance analysis
+ - RMSE and R² (for regression)
+ - Accuracy, Precision, Recall, F1-score (for classification)
+ - Cross-validation to reduce overfitting
+ - Feature importance analysis
 
 Exploratory data analysis, basic statistical analysis, feature engineering, linear and multiple regression, logistic regression, k-Nearest Neighbors, decision trees, PCA, and model evaluation with regularization to prevent overfitting.
 
@@ -84,7 +78,7 @@ Otherwise
  - At-risk students may not be identified early
  - Resources may be allocated inefficiently
  - Interventions may target weak predictors rather than impactful ones
- 
+
 #### Next steps
  - Implement advanced models (Random Forest, Gradient Boosting)
  - Compare model performance against baseline
