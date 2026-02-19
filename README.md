@@ -79,10 +79,11 @@ This initiative is expected to make teacher(s) understand, which factors most st
  - Evidence-based prioritization of interventions
  - Clear guidance on where educational institutions should focus resources
 
-Otherwise
+**Otherwise**
  - At-risk students may not be identified early
  - Resources may be allocated inefficiently
  - Interventions may target weak predictors rather than impactful ones
+
 Below are cross-validated results for models evaluated (Train_Time, Train_Accuracy, Test_Accuracy, CV_MSE reported as mean squared error on validation folds; CV_R2 is mean R²):
 
 | Model | Train_Time | Train_Accuracy | Test_Accuracy | Test_MSE | Test_R2CV_MSE |
@@ -97,13 +98,13 @@ Below are cross-validated results for models evaluated (Train_Time, Train_Accura
 
 
 #### Next steps
- - Implement advanced models (Random Forest, Gradient Boosting)
- - Compare model performance against baseline
- - Perform hyperparameter tuning
- - Use k-fold cross-validation (with more folds) and report confidence intervals for metrics.
- - Translate technical findings into executive summary
- - Prepare presentation-ready visuals
- - provide an UI as a guideline where student can provide their information and it will update them with potential grades
+- Upgrade models: add boosted trees (`HistGradientBoostingRegressor`, XGBoost, LightGBM) and ensembles to capture non‑linear patterns.
+- Benchmark rigorously: compare every model to a simple baseline; report deltas to show real lift.
+- Tune systematically: run structured hyperparameter searches (e.g., randomized/optuna) to squeeze extra performance.
+- Validate robustly: use higher-fold cross‑validation and include confidence intervals on all metrics.
+- Communicate clearly: distill tech results into an executive-friendly summary with key wins and caveats.
+- Polish visuals: ship presentation-ready plots (clean palettes, readable labels, error bars where relevant).
+- User-facing UI concept: a simple form where students enter their attributes (attendance, study hours, resources, prior scores, etc.), then see an estimated grade range plus tailored improvement tips.
 
 #### Outline of project
 - [Jupyter Notebook — Student Performnce Factors](student_performance_factors.ipynb)
