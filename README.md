@@ -85,8 +85,8 @@ Otherwise
  - Interventions may target weak predictors rather than impactful ones
 Below are cross-validated results for models evaluated (Train_Time, Train_Accuracy, Test_Accuracy, CV_MSE reported as mean squared error on validation folds; CV_R2 is mean R²):
 
-| Model | 	Train_Time | Train_Accuracy | Test_Accuracy | Test_MSE | Test_R2CV_MSE |
-|---|---:|---:|---:|---:|---:|---:|
+| Model | Train_Time | Train_Accuracy | Test_Accuracy | Test_MSE | Test_R2CV_MSE |
+|---|---:|---:|---:|---:|---:|
 | Ridge | 0.009380 | 0.715675 | 0.768282 | 3.275349 | 0.768282 |
 | LinearRegression | 0.010401 | 0.715675 | 0.768280 | 3.275385 | 0.768280 |
 | GradientBoosting | 0.386067 | 0.743125 | 0.736137 | 3.729723 | 0.736137 |
